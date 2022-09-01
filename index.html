@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>WAIT</title>
+        <script src="script.js" defer></script>
     </head>
     <style>
         html{
@@ -19,8 +20,36 @@
             background-color:white;
             color:black;
         }
+
+        #Lightmode{
+            background-color:rgba(0, 0, 0, 0.342);
+            border-color:black;
+            color:white;
+            padding:10px;
+        }
+
+        #Darkmode{
+            background-color:rgba(0, 0, 0, 0.342);
+            border-color:black;
+            color:white;
+            padding:10px;
+        }
+
+        #lp{
+            font-size:250px;
+            text-align:center;
+            color:black;
+        }
+
+        #lp::selection{
+            background-color:black;
+            color:white;
+        }
+
     </style>
-    <body>
+    <body>    
+        <button id="Lightmode">Lightmode</button>
+        <button id="Darkmode">Darkmode</button>
         <p>WIP</p>
     </body>
 </html>
