@@ -1,55 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>WAIT</title>
-        <script src="script.js" defer></script>
+        <title>NOT DONE YET</title>
+        <style>
+            html{
+                background-color:#0a0908;
+                font-size:20px;
+                color:#EAE0D5;
+                text-align: center;
+                margin-top: 1rem;
+            }
+
+            header>p::selection, a::selection{
+                background-color: #22333b;
+            }
+
+            .name{
+                font-size: 30px;
+            }
+
+            .info{
+                width: fit-content;
+                margin: 0 auto;
+                padding-top: 1rem;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                font-size: 25px;
+                display:block;
+                margin: 0;
+                padding: 1rem;
+            }
+
+            a:hover{
+                color:#5e548e;
+            }
+
+            @media screen and (max-width: 900px) {
+                html{
+                    font-size:50px;
+                }
+                
+                .name{
+                    font-size: 60px;
+                }
+
+                a{
+                    font-size: 50px;
+                }
+            }
+        </style>
     </head>
-    <style>
-        html{
-            background-color:black;
-        }
-
-        p{
-            font-size:250px;
-            text-align:center;
-            color:white;
-        }
-
-        p::selection{
-            background-color:white;
-            color:black;
-        }
-
-        #Lightmode{
-            background-color:rgba(0, 0, 0, 0.342);
-            border-color:black;
-            color:white;
-            padding:10px;
-        }
-
-        #Darkmode{
-            background-color:rgba(0, 0, 0, 0.342);
-            border-color:black;
-            color:white;
-            padding:10px;
-        }
-
-        #lp{
-            font-size:250px;
-            text-align:center;
-            color:black;
-        }
-
-        #lp::selection{
-            background-color:black;
-            color:white;
-        }
-
-    </style>
-    <body>    
-        <button id="Lightmode">Lightmode</button>
-        <button id="Darkmode">Darkmode</button>
-        <p>WIP</p>
+    <body>
+        <header>
+            <p class="name">krixcrox</p>
+            <p>just a curious student, who likes to learn, build and code stuff.</p>
+        </header>
+        <section class="info">
+            <a href="https://github.com/Falk-Witte">github</a>
+            <a href="https://Falk-Witte.github.io">dndbad</a>
+            <a href="https://github.com/Falk-Witte/encryption-machine">encryption-machine</a>
+            <a href="https://github.com/Falk-Witte/nws">nws</a>
+        </section>
     </body>
-</html>
