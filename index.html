@@ -6,7 +6,64 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
+        <style>
+            html{
+                background-color:#0a0908;
+                font-size:20px;
+                color:#EAE0D5;
+                text-align: center;
+                margin-top: 1rem;
+                font-family: 'Inconsolata', monospace;
+            }
+
+            header>p::selection, a::selection, p::selection{
+                background-color: #22333b;
+            }
+
+            .name{
+                font-size: 2rem;
+            }
+
+            .contact, .projects{
+                font-size: 1.4rem;
+                margin-top:55px;
+            }
+
+            ul{
+                margin-top: 20px;
+                list-style:none;
+                padding-left:0;
+            }
+
+            li{
+                margin-bottom: 30px;
+            }
+
+            a {
+                color:#eae0d598;
+                text-decoration: none;
+                font-size: 1.3rem;
+                padding: 0.8rem;
+            }
+
+            a:hover{
+                color:#5e548e;
+            }
+
+            @media screen and (max-width: 1000px) {
+                html{
+                    font-size:3rem;
+                }
+                
+                .contact{
+                    margin-top: 80px;
+                }
+                li{
+                    margin-bottom: 
+                    100px;
+                }
+            }
+        </style>
     </head>
     <body>
         <header>
